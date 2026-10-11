@@ -1,0 +1,106 @@
+[
+  {
+    "run_id": "2026-10-10T182451-7a437815",
+    "document": "p01_bluehen_quote.html",
+    "timestamp": "2026-10-10T18:24:52.946379+00:00",
+    "type": "run_error",
+    "output": null,
+    "error": "ModelHTTPError: status_code: 400, model_name: gpt-6-luna, body: {'message': \"azure-openai error: Function tools with reasoning_effort are not supported for gpt-6-luna-global in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'.\", 'type': 'invalid_request_error', 'param': 'reasoning_effort', 'code': None}"
+  },
+  {
+    "run_id": "2026-10-10T182528-7a85286d",
+    "document": "p01_bluehen_quote.html",
+    "type": "tool_call",
+    "timestamp": "2026-10-10T18:25:33.508093+00:00",
+    "model_call_index": 1,
+    "tool": "read_vendor_document",
+    "tool_call_id": "call_HLnjGjZqU7YSia7zqQLzlXmK",
+    "arguments": {},
+    "status": "ok",
+    "result_summary": "Document: p01_bluehen_quote.html (format: HTML)\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Quote BHA-26-1187 for Campus Customs</title>\n<style>\n  body { font-family: Georgi"
+  },
+  {
+    "run_id": "2026-10-10T182528-7a85286d",
+    "document": "p01_bluehen_quote.html",
+    "type": "tool_call",
+    "timestamp": "2026-10-10T18:25:35.878188+00:00",
+    "model_call_index": 2,
+    "tool": "final_result",
+    "tool_call_id": "call_O3tFl3CT276pEeQJwdrQ5YiB",
+    "arguments": {
+      "vendor": "Blue Hen Apparel",
+      "sku": "CC-HD-006",
+      "unit_price": 21.8,
+      "lead_time_days": 14,
+      "min_order": 240,
+      "decision": "recommend",
+      "reason": "All four purchasing checks pass: Blue Hen Apparel is approved, $21.80 is within the $25.44 max, the 14-day lead time is within 21 days, and the 240-unit minimum is within 600."
+    },
+    "status": "ok",
+    "result_summary": "Final result processed."
+  },
+  {
+    "run_id": "2026-10-10T182528-7a85286d",
+    "document": "p01_bluehen_quote.html",
+    "timestamp": "2026-10-10T18:25:35.880545+00:00",
+    "type": "final_output",
+    "output": {
+      "vendor": "Blue Hen Apparel",
+      "sku": "CC-HD-006",
+      "unit_price": 21.8,
+      "lead_time_days": 14,
+      "min_order": 240,
+      "decision": "recommend",
+      "reason": "All four purchasing checks pass: Blue Hen Apparel is approved, $21.80 is within the $25.44 max, the 14-day lead time is within 21 days, and the 240-unit minimum is within 600."
+    },
+    "error": null
+  },
+  {
+    "run_id": "2026-10-10T182545-7cb2756b",
+    "document": "p08_chapelst_email.eml",
+    "type": "tool_call",
+    "timestamp": "2026-10-10T18:25:50.118126+00:00",
+    "model_call_index": 1,
+    "tool": "read_vendor_document",
+    "tool_call_id": "call_S3tUAVZEKLLytZ2DSAJpe5Pk",
+    "arguments": {},
+    "status": "ok",
+    "result_summary": "Document: p08_chapelst_email.eml (format: email)\n\nFrom: Dana Ruiz <dana@chapelstgoods.example>\nTo: buyer@campuscustoms.example\nSubject: Quote for Bookmark Set\nDate: Tue, 22 Sep 2026 14:13:20 -0000\nCon"
+  },
+  {
+    "run_id": "2026-10-10T182545-7cb2756b",
+    "document": "p08_chapelst_email.eml",
+    "type": "tool_call",
+    "timestamp": "2026-10-10T18:25:52.944888+00:00",
+    "model_call_index": 2,
+    "tool": "final_result",
+    "tool_call_id": "call_hJLQPRkKMwUuDgEUjqqyQwUF",
+    "arguments": {
+      "vendor": "Chapel Street Goods",
+      "sku": "CC-PG-010",
+      "unit_price": 4.27,
+      "lead_time_days": 6,
+      "min_order": 250,
+      "decision": "recommend",
+      "reason": "All four purchasing checks pass: approved vendor, $4.27 is below the $5.34 maximum, 6-day lead time is within 21 days, and the 250-unit minimum is within 600."
+    },
+    "status": "ok",
+    "result_summary": "Final result processed."
+  },
+  {
+    "run_id": "2026-10-10T182545-7cb2756b",
+    "document": "p08_chapelst_email.eml",
+    "timestamp": "2026-10-10T18:25:52.947618+00:00",
+    "type": "final_output",
+    "output": {
+      "vendor": "Chapel Street Goods",
+      "sku": "CC-PG-010",
+      "unit_price": 4.27,
+      "lead_time_days": 6,
+      "min_order": 250,
+      "decision": "recommend",
+      "reason": "All four purchasing checks pass: approved vendor, $4.27 is below the $5.34 maximum, 6-day lead time is within 21 days, and the 250-unit minimum is within 600."
+    },
+    "error": null
+  }
+]

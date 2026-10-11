@@ -1,0 +1,20 @@
+[
+  {
+    "phase": "preliminary_option_a",
+    "condition": "disabled",
+    "document": "p01_bluehen_quote.html",
+    "started": "2026-10-10T19:37:51.788108+00:00",
+    "run_id": "2026-10-10T193755-faeb2a8f",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "phase": "preliminary_option_a",
+    "condition": "enabled",
+    "document": "p01_bluehen_quote.html",
+    "started": "2026-10-10T19:38:02.346772+00:00",
+    "run_id": "2026-10-10T193805-9898105c",
+    "exit_code": 0,
+    "stderr_tail": null
+  }
+]

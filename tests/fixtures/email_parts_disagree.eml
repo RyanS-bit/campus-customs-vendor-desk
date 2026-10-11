@@ -1,0 +1,19 @@
+From: Priya Nair <priya@eastrockceramics.example>
+To: buyer@campuscustoms.example
+Subject: Revised quote R3
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=XX
+
+--XX
+Content-Type: text/plain
+
+Item: Travel Mug (CC-MG-003)
+Unit price: $4.87
+Minimum order: 96 units
+Lead time: 26 business days
+
+--XX
+Content-Type: text/html
+
+<p>Item: Travel Mug (CC-MG-003)<br>Unit price: $4.87<br>Minimum order: 96 units<br>Lead time: 12 business days</p>
+--XX--

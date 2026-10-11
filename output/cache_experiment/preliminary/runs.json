@@ -1,0 +1,38 @@
+[
+  {
+    "phase": "preliminary",
+    "condition": "disabled",
+    "document": "p01_bluehen_quote.html",
+    "started": "2026-10-10T18:43:36.119486+00:00",
+    "run_id": "2026-10-10T184340-dbcf40a6",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "phase": "preliminary",
+    "condition": "enabled",
+    "document": "p01_bluehen_quote.html",
+    "started": "2026-10-10T18:43:43.409428+00:00",
+    "run_id": "2026-10-10T184347-4ab2c1c8",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "phase": "preliminary",
+    "condition": "disabled",
+    "document": "p01_bluehen_quote.html",
+    "started": "2026-10-10T18:43:52.678137+00:00",
+    "run_id": "2026-10-10T184357-85672193",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "phase": "preliminary",
+    "condition": "disabled",
+    "document": "p01_bluehen_quote.html",
+    "started": "2026-10-10T18:45:01.572643+00:00",
+    "run_id": "2026-10-10T184505-c50bf4a0",
+    "exit_code": 0,
+    "stderr_tail": null
+  }
+]

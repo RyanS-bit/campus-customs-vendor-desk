@@ -1,0 +1,110 @@
+[
+  {
+    "document": "p01_bluehen_quote.html",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:09:54.468420+00:00",
+    "run_id": "2026-10-11T030958-a01c1a2a",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p02_elmcity_quote.html",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:10:44.486467+00:00",
+    "run_id": "2026-10-11T031048-96f8e356",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p03_ivyprint_catalog.html",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:11:34.551506+00:00",
+    "run_id": "2026-10-11T031138-35e221fd",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p04_harborstitch_quote.html",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:12:29.702734+00:00",
+    "run_id": "2026-10-11T031233-da3557e3",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p05_maplemills_quote.pdf",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:13:27.539101+00:00",
+    "run_id": "2026-10-11T031331-d585a4c3",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p06_qtextile_quote.pdf",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:14:12.229184+00:00",
+    "run_id": "2026-10-11T031416-dd3e7e0d",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p07_longwharf_quote.pdf",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:14:56.992073+00:00",
+    "run_id": "2026-10-11T031501-4f47760e",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p08_chapelst_email.eml",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:15:50.518475+00:00",
+    "run_id": "2026-10-11T031554-66a33f22",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p09_westville_email.eml",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:16:37.162837+00:00",
+    "run_id": "2026-10-11T031641-75e26219",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p10_eastrock_email.eml",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:17:30.188466+00:00",
+    "run_id": "2026-10-11T031734-98bdc9ab",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p11_yorkst_quote.html",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:18:16.510842+00:00",
+    "run_id": "2026-10-11T031820-c7436ae7",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p12_bluehen_quote.pdf",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:19:07.351052+00:00",
+    "run_id": "2026-10-11T031911-efa42347",
+    "exit_code": 0,
+    "stderr_tail": null
+  }
+]

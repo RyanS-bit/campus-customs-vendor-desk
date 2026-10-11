@@ -1,0 +1,11 @@
+[
+  {
+    "document": "p12_bluehen_quote.pdf",
+    "config": "D",
+    "defense": "full",
+    "started": "2026-10-11T03:33:17.015498+00:00",
+    "run_id": "2026-10-11T033321-432c85ad",
+    "exit_code": 0,
+    "stderr_tail": null
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "run_id": "2026-10-10T182528-7a85286d",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 1,
+    "timestamp": "2026-10-10T18:25:33.508093+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_03265d86a33d0f95016aca831830148193801d9397ef545522",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11105,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 10979,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.001392475,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.0,
+      "cache_write": 0.001372375,
+      "output": 7.5e-06
+    }
+  },
+  {
+    "run_id": "2026-10-10T182528-7a85286d",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 2,
+    "timestamp": "2026-10-10T18:25:35.878188+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0febcd54fb083144016aca831c7a7081979ee522e8ff403bd1",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11560,
+    "cache_read_tokens": 10979,
+    "cache_write_tokens": 455,
+    "output_tokens": 185,
+    "usage_details": {
+      "reasoning_tokens": 83
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000271765,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010979,
+      "cache_write": 5.6875e-05,
+      "output": 9.25e-05
+    }
+  },
+  {
+    "run_id": "2026-10-10T182545-7cb2756b",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 1,
+    "timestamp": "2026-10-10T18:25:50.118126+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_03ac3d6d9422cb1f016aca8328cd888195b27b423fdc04ced6",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11107,
+    "cache_read_tokens": 10959,
+    "cache_write_tokens": 22,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00013244,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010959,
+      "cache_write": 2.75e-06,
+      "output": 7.5e-06
+    }
+  },
+  {
+    "run_id": "2026-10-10T182545-7cb2756b",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 2,
+    "timestamp": "2026-10-10T18:25:52.944888+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0f940a432c12fb8f016aca832d08788197b88fc4b053437ee5",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11297,
+    "cache_read_tokens": 10981,
+    "cache_write_tokens": 190,
+    "output_tokens": 177,
+    "usage_details": {
+      "reasoning_tokens": 77
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00023466,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010981,
+      "cache_write": 2.375e-05,
+      "output": 8.85e-05
+    }
+  }
+]

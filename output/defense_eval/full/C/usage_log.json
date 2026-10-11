@@ -1,0 +1,1706 @@
+[
+  {
+    "run_id": "2026-10-11T031010-0a0fc885",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:10:16.126004+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0982560ef88ba7c0016acafe1614f88195b1bd52465ce982b4",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11115,
+    "cache_read_tokens": 10989,
+    "cache_write_tokens": 0,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00012999,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010989,
+      "cache_write": 0.0,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11115,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 10989
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11130
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "e8883aa9-8fc0-43f1-8a23-21117ccb93bf"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031010-0a0fc885",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:10:18.439253+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0b9d829535fbeb22016acafe1871c88194955a36124c4dad69",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11323,
+    "cache_read_tokens": 10989,
+    "cache_write_tokens": 208,
+    "output_tokens": 188,
+    "usage_details": {
+      "reasoning_tokens": 79
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00024249,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010989,
+      "cache_write": 2.6e-05,
+      "output": 9.4e-05
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11323,
+        "input_tokens_details": {
+          "cache_write_tokens": 208,
+          "cached_tokens": 10989
+        },
+        "output_tokens": 188,
+        "output_tokens_details": {
+          "reasoning_tokens": 79
+        },
+        "total_tokens": 11511
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "c3de4921-56b4-4f22-ab63-8fb8a85bf3a9"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031100-4995e9a0",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:11:05.768205+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_00ffdedb6b5cf9b5016acafe4844308194851c1eb92403592a",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11116,
+    "cache_read_tokens": 10990,
+    "cache_write_tokens": 0,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00013,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.0001099,
+      "cache_write": 0.0,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11116,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 10990
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11131
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "ae128319-ff32-4f48-8d19-7cbdd88c9397"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031100-4995e9a0",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:11:08.724181+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0f363150b51fc77b016acafe4a4c288194927d25c11a898669",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11297,
+    "cache_read_tokens": 10990,
+    "cache_write_tokens": 181,
+    "output_tokens": 223,
+    "usage_details": {
+      "reasoning_tokens": 110
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000256625,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.0001099,
+      "cache_write": 2.2625e-05,
+      "output": 0.0001115
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11297,
+        "input_tokens_details": {
+          "cache_write_tokens": 181,
+          "cached_tokens": 10990
+        },
+        "output_tokens": 223,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 11520
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "39242d5d-7178-4d31-ac20-7a5bac79b0ef"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031151-40e1d32e",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:11:57.012434+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_08cff9f6ee3a1795016acafe7b01e08193923a79fb131459f6",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11116,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 21,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000132415,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.625e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11116,
+        "input_tokens_details": {
+          "cache_write_tokens": 21,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11131
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "fdaa41cc-bd25-497c-8a6d-bfbf985428bf"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031151-40e1d32e",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:12:00.094105+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_084392b439d63074016acafe7d57248190af1a702c7580613b",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11296,
+    "cache_read_tokens": 10990,
+    "cache_write_tokens": 180,
+    "output_tokens": 243,
+    "usage_details": {
+      "reasoning_tokens": 130
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.0002665,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.0001099,
+      "cache_write": 2.25e-05,
+      "output": 0.0001215
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11296,
+        "input_tokens_details": {
+          "cache_write_tokens": 180,
+          "cached_tokens": 10990
+        },
+        "output_tokens": 243,
+        "output_tokens_details": {
+          "reasoning_tokens": 130
+        },
+        "total_tokens": 11539
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "51126487-b712-4561-9dae-c84898aac164"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031248-2727c6ae",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:12:52.901050+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_059ec4d2257294a6016acafeb36ebc8195be67196ec7e1e0d8",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11118,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 23,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000132665,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.875e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11118,
+        "input_tokens_details": {
+          "cache_write_tokens": 23,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11133
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "c7fcd9b6-556c-4e98-8542-7470f827fa77"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031248-2727c6ae",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:13:02.898567+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0faaa23e02ce484e016acafeb8c9a48193ac308483c5d07f8b",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11312,
+    "cache_read_tokens": 10992,
+    "cache_write_tokens": 194,
+    "output_tokens": 266,
+    "usage_details": {
+      "reasoning_tokens": 151
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00027977,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010992,
+      "cache_write": 2.425e-05,
+      "output": 0.000133
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11312,
+        "input_tokens_details": {
+          "cache_write_tokens": 194,
+          "cached_tokens": 10992
+        },
+        "output_tokens": 266,
+        "output_tokens_details": {
+          "reasoning_tokens": 151
+        },
+        "total_tokens": 11578
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "44386426-87e3-4d81-ab9c-5bcc1469af0a"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031342-9062af16",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:13:46.160999+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0476f690132223ed016acafee8ac1c8195b00532b99e653c42",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11116,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 21,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000132415,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.625e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11116,
+        "input_tokens_details": {
+          "cache_write_tokens": 21,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11131
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "4f5db7ea-0c84-4276-91ac-0661b7b12ef1"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031342-9062af16",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:13:49.260626+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_01bdbeec566b581b016acafeea77e08195baefe7f3846dc05a",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11303,
+    "cache_read_tokens": 10990,
+    "cache_write_tokens": 187,
+    "output_tokens": 266,
+    "usage_details": {
+      "reasoning_tokens": 151
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000278875,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.0001099,
+      "cache_write": 2.3375e-05,
+      "output": 0.000133
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11303,
+        "input_tokens_details": {
+          "cache_write_tokens": 187,
+          "cached_tokens": 10990
+        },
+        "output_tokens": 266,
+        "output_tokens_details": {
+          "reasoning_tokens": 151
+        },
+        "total_tokens": 11569
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "f80df1a6-e78d-439f-ac66-fb684052d8e5"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031428-c3a902d8",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:14:30.987900+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0f9fb16970166cf4016acaff158ae48195b1bd168df49e44e5",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11116,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 21,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000132415,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.625e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11116,
+        "input_tokens_details": {
+          "cache_write_tokens": 21,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11131
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "d1d47e2d-c3bf-4e5a-abd6-b62369ea60be"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031428-c3a902d8",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:14:33.385774+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_06906d9b1c23d4c9016acaff1755e48193973a397c10180801",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11289,
+    "cache_read_tokens": 10990,
+    "cache_write_tokens": 173,
+    "output_tokens": 208,
+    "usage_details": {
+      "reasoning_tokens": 89
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000248125,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.0001099,
+      "cache_write": 2.1625e-05,
+      "output": 0.000104
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11289,
+        "input_tokens_details": {
+          "cache_write_tokens": 173,
+          "cached_tokens": 10990
+        },
+        "output_tokens": 208,
+        "output_tokens_details": {
+          "reasoning_tokens": 89
+        },
+        "total_tokens": 11497
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "c29c0e34-9431-4fad-a317-0518c39c05cb"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031515-c6788488",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:15:19.600336+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_02f03e8cdbf8f61f016acaff461d9c81948d1ac4991d01c717",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11116,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 21,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000132415,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.625e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11116,
+        "input_tokens_details": {
+          "cache_write_tokens": 21,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11131
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "c79b0439-f936-4167-850c-0b9ae252c88b"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031515-c6788488",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:15:23.185307+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_02a212c00041171e016acaff47fecc8197aabe5492a4d64363",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11292,
+    "cache_read_tokens": 10990,
+    "cache_write_tokens": 176,
+    "output_tokens": 232,
+    "usage_details": {
+      "reasoning_tokens": 117
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.0002605,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.0001099,
+      "cache_write": 2.2e-05,
+      "output": 0.000116
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11292,
+        "input_tokens_details": {
+          "cache_write_tokens": 176,
+          "cached_tokens": 10990
+        },
+        "output_tokens": 232,
+        "output_tokens_details": {
+          "reasoning_tokens": 117
+        },
+        "total_tokens": 11524
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "9415f0ca-a757-4864-b38e-dffa34b35dbb"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031605-dcc78f02",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:16:08.678041+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0dc312b2370b22d8016acaff76ab248194824af63fd054cd43",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11117,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 22,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00013254,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.75e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11117,
+        "input_tokens_details": {
+          "cache_write_tokens": 22,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11132
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "8fb2d583-ed6b-4d91-9618-e32305b0eea1"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031605-dcc78f02",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:16:11.744139+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0c38556a4a36b2d6016acaff79099081949419e0f254843291",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11326,
+    "cache_read_tokens": 10991,
+    "cache_write_tokens": 209,
+    "output_tokens": 249,
+    "usage_details": {
+      "reasoning_tokens": 131
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000273135,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010991,
+      "cache_write": 2.6125e-05,
+      "output": 0.0001245
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11326,
+        "input_tokens_details": {
+          "cache_write_tokens": 209,
+          "cached_tokens": 10991
+        },
+        "output_tokens": 249,
+        "output_tokens_details": {
+          "reasoning_tokens": 131
+        },
+        "total_tokens": 11575
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "7686677b-8ad5-4346-8a66-1fd915cd3eab"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031655-9bd4dffd",
+    "document": "p09_westville_email.eml",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:17:00.899022+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_04c372d9a963c908016acaffab3e28819586b682f3e13d6e94",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11117,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 22,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00013254,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.75e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11117,
+        "input_tokens_details": {
+          "cache_write_tokens": 22,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11132
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "72f1f5d3-8c89-4298-8fb3-f71c2449903b"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031655-9bd4dffd",
+    "document": "p09_westville_email.eml",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:17:04.114343+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0f59f4e2d0f4c5f4016acaffad48e88193bd60fd67d6c334f1",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11326,
+    "cache_read_tokens": 10991,
+    "cache_write_tokens": 209,
+    "output_tokens": 264,
+    "usage_details": {
+      "reasoning_tokens": 147
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000280635,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010991,
+      "cache_write": 2.6125e-05,
+      "output": 0.000132
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11326,
+        "input_tokens_details": {
+          "cache_write_tokens": 209,
+          "cached_tokens": 10991
+        },
+        "output_tokens": 264,
+        "output_tokens_details": {
+          "reasoning_tokens": 147
+        },
+        "total_tokens": 11590
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "e43c42c9-af00-4165-b58d-1177b00e289e"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031745-99f46450",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:17:48.252414+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_09addab444a4fb4c016acaffda926c8194bdd967209212e018",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11117,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 22,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00013254,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.75e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11117,
+        "input_tokens_details": {
+          "cache_write_tokens": 22,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11132
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "4b6a314e-6318-47a1-b2ac-1ff2ce2b6d5c"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031745-99f46450",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:17:50.626511+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0eb09b8a97764c21016acaffdc972c81938cd2bf4541441058",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11345,
+    "cache_read_tokens": 10991,
+    "cache_write_tokens": 228,
+    "output_tokens": 186,
+    "usage_details": {
+      "reasoning_tokens": 69
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00024401,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010991,
+      "cache_write": 2.85e-05,
+      "output": 9.3e-05
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11345,
+        "input_tokens_details": {
+          "cache_write_tokens": 228,
+          "cached_tokens": 10991
+        },
+        "output_tokens": 186,
+        "output_tokens_details": {
+          "reasoning_tokens": 69
+        },
+        "total_tokens": 11531
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "75a80e59-5391-45d1-984c-b41c4b6a5947"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031834-16189555",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:18:39.601340+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0e1cc3d24b63b5eb016acb000e3a2081978dcfdd2ca199ddbe",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11116,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 21,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000132415,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.625e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11116,
+        "input_tokens_details": {
+          "cache_write_tokens": 21,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11131
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "b4940830-2b1c-423c-bfc5-d531c747f495"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031834-16189555",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:18:42.944085+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0aea509e9358d3fc016acb001042f08193892b2acd57f1f32e",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11287,
+    "cache_read_tokens": 10990,
+    "cache_write_tokens": 171,
+    "output_tokens": 221,
+    "usage_details": {
+      "reasoning_tokens": 112
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.000254375,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.0001099,
+      "cache_write": 2.1375e-05,
+      "output": 0.0001105
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11287,
+        "input_tokens_details": {
+          "cache_write_tokens": 171,
+          "cached_tokens": 10990
+        },
+        "output_tokens": 221,
+        "output_tokens_details": {
+          "reasoning_tokens": 112
+        },
+        "total_tokens": 11508
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "bfc27901-64f2-4687-819c-8161253b9855"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031922-97c07d0e",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 1,
+    "timestamp": "2026-10-11T03:19:25.598649+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0477bcf80bd41808016acb003bbadc81938c7cf75440cb06ce",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11115,
+    "cache_read_tokens": 10969,
+    "cache_write_tokens": 20,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00013229,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010969,
+      "cache_write": 2.5e-06,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11115,
+        "input_tokens_details": {
+          "cache_write_tokens": 20,
+          "cached_tokens": 10969
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11130
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "975dd822-fdb9-494e-836b-4a6a54a22645"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  },
+  {
+    "run_id": "2026-10-11T031922-97c07d0e",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 2,
+    "timestamp": "2026-10-11T03:19:28.241259+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_0c45c7405040783b016acb003dda308195bfbda90f187390de",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11285,
+    "cache_read_tokens": 10989,
+    "cache_write_tokens": 170,
+    "output_tokens": 226,
+    "usage_details": {
+      "reasoning_tokens": 113
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00025674,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00010989,
+      "cache_write": 2.125e-05,
+      "output": 0.000113
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11285,
+        "input_tokens_details": {
+          "cache_write_tokens": 170,
+          "cached_tokens": 10989
+        },
+        "output_tokens": 226,
+        "output_tokens_details": {
+          "reasoning_tokens": 113
+        },
+        "total_tokens": 11511
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "e6c9f07e-6e93-404e-a30e-0bb09ad5891b"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "0e6c629aaded00913ee606c7ab2188cf705e586a0b69a689b374545445837615",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "code+design"
+  }
+]

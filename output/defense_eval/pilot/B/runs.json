@@ -1,0 +1,20 @@
+[
+  {
+    "document": "p01_bluehen_quote.html",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:04:36.661748+00:00",
+    "run_id": "2026-10-11T030439-351828ea",
+    "exit_code": 0,
+    "stderr_tail": null
+  },
+  {
+    "document": "p02_elmcity_quote.html",
+    "config": "B",
+    "defense": "code",
+    "started": "2026-10-11T03:05:31.752905+00:00",
+    "run_id": "2026-10-11T030535-f6cae29d",
+    "exit_code": 0,
+    "stderr_tail": null
+  }
+]
