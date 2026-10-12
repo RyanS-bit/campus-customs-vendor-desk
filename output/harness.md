@@ -236,6 +236,9 @@ python tests/offline_checks.py                            # free offline verific
 5. **Development set only so far.** The defenses were developed against the 12 practice documents and synthetic tests. The exam documents have not been opened and are the honest test of generalization.
 6. **Off-page PDF text (corrected 2026-10-10).** Before the fix, text drawn outside the PDF page was excluded from the model's input but not logged in quarantine. It is now logged. The fix changed no decision (see "Measured results").
 
+7. **Evidence matching on some table layouts (observed 2026-10-11).** In one Problem 7 defended run, the evidence check could not match a correct price in a horizontal HTML table. The decision was still safe (do_not_recommend), but the stated reason was "could not be verified" rather than the price check. The code was not changed, because a change would require rerunning the Problem 6 and Problem 8 evaluations.
+8. **Review-flag gaps seen in the exam records (observed 2026-10-11).** In e10, removed hidden text was not classified as material, so no buyer review was requested. In e09, visible text addressed to the reviewer was not flagged for review (visible text is deliberately not removed; actions stay locked by the design layer). Neither gap changed a decision, and no tool was attempted.
+
 ### Measured results (live gpt-6-luna runs, 2026-10-10)
 
 **What was run.** All 12 practice documents under four configurations: none, code, code + design, and full. That is 48 runs and 96 genuine model calls (every call a fresh `REFRESH` response, none replayed). Full details are in `output/defense_results.md`.

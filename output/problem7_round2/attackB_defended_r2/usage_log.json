@@ -1,0 +1,144 @@
+[
+  {
+    "run_id": "2026-10-12T003612-60548c27",
+    "document": "attackB_yorkst_beanie_quote.pdf",
+    "call_index": 1,
+    "timestamp": "2026-10-12T00:36:16.348152+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_06fb1bab904b6c99016acc2b7e9f3881948531b9c08b1dd142",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11291,
+    "cache_read_tokens": 11165,
+    "cache_write_tokens": 0,
+    "output_tokens": 15,
+    "usage_details": {
+      "reasoning_tokens": 0
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00013175,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00011165,
+      "cache_write": 0.0,
+      "output": 7.5e-06
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11291,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 11165
+        },
+        "output_tokens": 15,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 11306
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "38fe30a2-3a8f-4159-958d-462fcc8ea4bc"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "5bdfa9ad7b207f4578f08c0cc8b73f69ee2eeb10f6d311c6ca4de4b4be865126",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "full"
+  },
+  {
+    "run_id": "2026-10-12T003612-60548c27",
+    "document": "attackB_yorkst_beanie_quote.pdf",
+    "call_index": 2,
+    "timestamp": "2026-10-12T00:36:19.115189+00:00",
+    "model_requested": "gpt-6-luna",
+    "model_reported": "gpt-6-luna-global",
+    "provider_response_id": "resp_065a8bb50a153c0d016acc2b8089d48194a1629a9a6b638d0a",
+    "source": "API-reported usage (measured)",
+    "input_tokens": 11523,
+    "cache_read_tokens": 11165,
+    "cache_write_tokens": 232,
+    "output_tokens": 225,
+    "usage_details": {
+      "reasoning_tokens": 110
+    },
+    "uncached_input_tokens": 126,
+    "cost_usd": 0.00026575,
+    "cost_breakdown_usd": {
+      "uncached_input": 1.26e-05,
+      "cache_read": 0.00011165,
+      "cache_write": 2.9e-05,
+      "output": 0.0001125
+    },
+    "cache_condition": "enabled",
+    "derived_fields": [
+      "uncached_input_tokens",
+      "cost_usd",
+      "cost_breakdown_usd"
+    ],
+    "provider_raw": {
+      "usage": {
+        "input_tokens": 11523,
+        "input_tokens_details": {
+          "cache_write_tokens": 232,
+          "cached_tokens": 11165
+        },
+        "output_tokens": 225,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 11748
+      },
+      "echoed_request_fields": {
+        "model": "gpt-6-luna-global",
+        "prompt_cache_options": null,
+        "prompt_cache_retention": "24h",
+        "prompt_cache_key": null,
+        "store": false,
+        "reasoning": {
+          "context": "all_turns",
+          "effort": "medium",
+          "mode": "standard",
+          "summary": null
+        }
+      },
+      "portkey_headers": {
+        "x-portkey-cache-status": "REFRESH",
+        "x-portkey-last-used-option-index": "config.targets[2]",
+        "x-portkey-provider": "azure-openai",
+        "x-portkey-retry-attempt-count": "0",
+        "x-portkey-trace-id": "46df19d7-3aec-4c06-b103-1329cfcc3977"
+      },
+      "request_sent": {
+        "request_id_line": null,
+        "instructions_sha256_excluding_request_id": "5bdfa9ad7b207f4578f08c0cc8b73f69ee2eeb10f6d311c6ca4de4b4be865126",
+        "tools_sha256": "c6356d54c3ec3249e4f563f9545d22b8375738886da7549218c1564ebf3f7a91"
+      }
+    },
+    "defense": "full"
+  }
+]

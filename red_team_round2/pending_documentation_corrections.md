@@ -1,0 +1,16 @@
+# Pending documentation corrections (identified 2026-10-11; NOT applied)
+
+Every item here needs Dr. Ryan's approval before it is applied. None requires a model call. The published repository (`f8a459c`) is unchanged.
+
+| # | File | Correction | Type | Source |
+|---|---|---|---|---|
+| 1 | `AI_prompts.md` | Use the official problem titles in the headings: Problem 1 "Vibe coder prompts" (now "Project Setup"); Problem 4 "With and without cached tokens" (now "Prompt Caching Experiments"); Problem 5 "Attack your own agent" (now "Evaluating Prompt-Injection Attacks"); capitalization of Problems 2, 3 and 6 ("Size up the handbook", "Build the vendor desk agent", "Defend your agent"). Quoted prompts are not changed. | Compliance | Final audit, diagnostic |
+| 2 | `AI_prompts.md` | Log Dr. Ryan's messages since the staging phase, verbatim and in order: staging approval; repository-created message; "yes, push"; final submission audit; diagnostic request; this round-2 preparation instruction. Add an assistant record of the publication, audit, diagnostic and round-2 preparation. | Compliance (standing logging rule) | Not yet logged |
+| 3 | `AI_prompts.md` | Problem 8 original prompt: add it verbatim **only if** Dr. Ryan recovers it; otherwise keep the documented gap. | Compliance (Dr. Ryan only) | Final audit |
+| 4 | `output/red_team.md` | Correct stale statements: the attacks are now also in `data/my_attacks/` (byte-identical to `data/data/`); the backup file is `agent.py (original).txt`, not `agent_backup.py`, and is not published; "From the `hw6` project root" should read "from the repository root". If round 2 runs, add it as a new section and keep round 1. | Compliance | Final audit |
+| 5 | `output/hw6_report.html` (via `build_report.py`) | The exam line "5 documents carried hidden content" should say that 7 had hidden content removed, of which 5 were flagged as material. If round 2 runs, update the red-team section. | Improvement | Final audit |
+| 6 | Exam documentation (`red_team.md` or `harness.md` limitations) | Record two flagging gaps seen in the exam security records. e09: a visible "pre-approved / approve_payment" request was not flagged for review. e10: a hidden "do not recommend" notice with an outside link was removed but not marked material. Neither changed a result. | Improvement (transparency) | Diagnostic |
+| 7 | `output/defense_results.md` or `harness.md` | Record the evidence-checker weakness on horizontal HTML tables (round-1 attack 1, defended: correct decision, inaccurate reason). Do **not** change the code; that would require rerunning Problems 6 and 8. | Improvement (transparency) | Diagnostic |
+| 8 | `output/cache_test.md` | "about one-eighth" → "about 13 percent". | Cosmetic | Final audit |
+| 9 | `output/handbook_estimate.md`, `output/red_team.md`, `.env.example` | Replace "the `hw6` folder" with "the repository root"; the `agent.py` docstring mention stays (code is not changed). | Cosmetic | Final audit |
+| 10 | Publication | After any change: rebuild the results page if affected, regenerate `SHA256SUMS.txt`, copy to the staging folder, re-verify (checksums, secret scan, byte comparison), commit, show the destination, wait for "push" approval, push, then verify anonymously. | Required if anything changes | Problem 10 |

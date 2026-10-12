@@ -19,8 +19,10 @@ prompts/prompt.md                 defended operating prompt (used by --defense f
 prompts/prompt_undefended.md      original Problem 3 prompt (used by every other mode)
 data/shop_handbook.md, data/prices.json, data/practice_key.json
 data/practice_docs/   12 practice documents        data/exam_docs/   10 exam documents
-data/my_attacks/      2 original red-team documents (Problem 7)
-data/data/            historical Problem 7 copies of the attacks + preregistration.json (read by build_report.py)
+data/my_attacks/      Problem 7 red-team documents (final Round 2 pair + Round 1 history; see "Problem 7 files" below)
+data/data/            Round 1 tested copies of the two Round 1 attacks + their preregistration.json
+red_team_round2/      Round 2 preregistration, test plan, offline validation and runner (Problem 7)
+evidence/safety/      primary-source records of the AI-assistant safety interruptions (Problem 7)
 estimate_handbook.py  Problem 2 token/cost estimate (local, no API calls)
 cache_experiment.py   Problem 4 caching experiment
 attack_eval.py        Problem 5 injection evaluation
@@ -37,6 +39,8 @@ AI_prompts.md         record of the AI-assisted development
 Developed and tested with Python 3.14.7 on Windows; other versions are untested. Google Chrome is used by the defended modes.
 
 ```
+git clone https://github.com/RyanS-bit/campus-customs-vendor-desk.git
+cd campus-customs-vendor-desk
 pip install -r requirements.txt
 ```
 
@@ -61,7 +65,7 @@ The agent also uses a `PORTKEY_API_KEY` that is already set in the environment; 
 ## Viewing the results (free)
 
 - **Results page:** open `output/hw6_report.html` in any web browser (double-click it, or drag it into a browser window). It is a single self-contained file that works offline.
-- **Reports and data:** the Markdown reports and JSON results are listed below; raw per-run logs are in `output/cache_experiment/`, `output/attack_eval/`, `output/defense_eval/`, `output/problem7/` and `output/exam_runs/`.
+- **Reports and data:** the Markdown reports and JSON results are listed below; raw per-run logs are in `output/cache_experiment/`, `output/attack_eval/`, `output/defense_eval/`, `output/problem7/` (Round 1), `output/problem7_round2/` (Round 2) and `output/exam_runs/`.
 
 | File | Contents |
 |---|---|
@@ -71,10 +75,21 @@ The agent also uses a `PORTKEY_API_KEY` that is already set in the environment; 
 | `output/cache_test.json`, `output/cache_test.md` | Problem 4: caching experiment |
 | `output/attack_results.json`, `output/attack_results.md` | Problem 5: undefended agent vs. practice attacks |
 | `output/defense_results.json`, `output/defense_results.md` | Problem 6: defended agent, per-layer costs |
-| `output/red_team.md` | Problem 7: original red-team attacks |
+| `output/red_team.md` | Problem 7: red-team report (Round 1 development history, Round 2 final attacks, and the decision to stop further red-teaming) |
 | `output/exam_results.json` | Problem 8: final defended agent on the 10 exam documents |
 | `output/hw6_report.html` | Problem 9: results page |
 | `output/HW6_Compliance_Audit.md`, `output/HW6_Repository_Readiness_Audit.md`, `output/offline_checks_results.txt` | Audit and verification records |
+
+### Problem 7 files
+
+| | Files | Status |
+|---|---|---|
+| **Final submissions (Round 2)** | `data/my_attacks/attackA_eastrock_mug_quote.html`, `data/my_attacks/attackB_yorkst_beanie_quote.pdf` | The two designated Problem 7 attack documents |
+| Round 1 (development history) | `data/my_attacks/attack1_exception_quote.html`, `data/my_attacks/attack2_prior_authorization.eml` (tested copies in `data/data/`) | Earlier attempts, kept as recorded |
+| Round 2 evidence | `red_team_round2/` (preregistration, test plan, offline validation); `output/problem7_round2/<attack>_<undefended\|defended>_r<n>/` (one folder per run: `usage_log.json`, `audit_trail.json`, `trap_calls.json`) | `r1` = screening run; `r2`, `r3` = reproducibility runs |
+| Round 1 evidence | `output/problem7/` | Four run folders |
+
+Results, limitations, and the decision to stop further red-teaming are in `output/red_team.md`.
 
 **About caching.** The Portkey key used here had a gateway **response cache** that can replay an earlier response instead of calling the model. In the default `--cache default` mode, a repeated request may therefore be a replay. The `enabled` and `disabled` modes send a cache-bypass header. The Problem 4 caching experiment measures **prompt-cache reads** (cached input tokens) separately from **cache-write charges**: preventing cache reads did not remove cache-write charges. See `output/cache_test.md`.
 
@@ -97,7 +112,7 @@ Options (from `python agent.py --help`):
 
 ```
 python agent.py --doc data/exam_docs/e01_quote.html --defense full --cache enabled --log-dir output/my_run
-python agent.py --doc data/my_attacks/attack1_exception_quote.html --defense none --cache enabled --log-dir output/my_attack_test
+python agent.py --doc data/my_attacks/attackB_yorkst_beanie_quote.pdf --defense none --cache enabled --log-dir output/my_attack_test
 ```
 
 Each run prints the run ID, the number of model calls, the cost, and the structured result. It appends to three JSON logs in the log folder:
@@ -125,13 +140,14 @@ python build_report.py
 
 - `tests/offline_checks.py` replaces the model with local fakes (PydanticAI `TestModel` / `FunctionModel`). It still builds the agent, so `PORTKEY_API_KEY` must be set to *some* value; a placeholder works.
 - The `evaluate` and `--build-only` commands rewrite their results JSON (`attack_results.json`, `defense_results.json`, `cache_test.json`) from the archived raw logs.
-- `build_report.py` rewrites `output/hw6_report.html` from the project records; the page shows the date it was built.
+- `build_report.py` rewrites `output/hw6_report.html` from the project records; the page shows the date it was built. If `evidence/safety/Safety_Flag_Claude.png` is present, it is embedded in the page.
 
 **Paid (uses your Portkey credits):**
 - every `agent.py` run;
 - `python attack_eval.py run`;
 - `python defense_eval.py run --phase full`;
-- `python cache_experiment.py --phase full`.
+- `python cache_experiment.py --phase full`;
+- `python red_team_round2/run_round2.py` (Problem 7 Round 2 runner; its `--check-only` option is free and only verifies the documents' SHA-256 fingerprints).
 
 Each evaluation runner has built-in spending limits.
 

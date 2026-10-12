@@ -1,6 +1,6 @@
 # Problem 4 — Prompt Caching Experiment
 
-**Bottom line.** On all 12 practice documents, with prompt-cache **reads** allowed, the agent cost **$0.00463** in total, or **$0.00039 per document**. With cache **reads prevented**, it cost **$0.03503**, or **$0.00292 per document**. Both figures are actual costs under `data/prices.json`. With caching, the shop pays about **one-eighth** as much. The agent's extracted facts and decisions were identical in both conditions on every document.
+**Bottom line.** On all 12 practice documents, with prompt-cache **reads** allowed, the agent cost **$0.00463** in total, or **$0.00039 per document**. With cache **reads prevented**, it cost **$0.03503**, or **$0.00292 per document**. Both figures are actual costs under `data/prices.json`. With caching, the shop pays about **13 percent** as much. The agent's extracted facts and decisions were identical in both conditions on every document.
 
 All numbers below come from API-reported usage of 48 genuine gpt-6-luna calls. They are rebuilt from the raw logs into `output/cache_test.json`, and the totals reconcile exactly with `output/cache_experiment/full/usage_log.json` ($0.039665885).
 

@@ -30,3 +30,18 @@ env/
 Thumbs.db
 desktop.ini
 .DS_Store
+# Historical copies and intermediate backups
+AI_prompts (original).md
+agent.py (original).txt
+build_report_before_final_corrections.py
+exam_results_backup.json
+
+# Review archives
+*.zip
+
+# Private safety evidence originals
+evidence/safety/
+
+# Local conversation exports
+*session-export*
+*transcript-export*

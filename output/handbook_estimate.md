@@ -4,7 +4,7 @@
 >
 > **HANDBOOK TOKENS ONLY.** These are the costs of sending the handbook, not the total cost of running the agent (see section 8).
 
-Reproduce (from the `hw6` folder):
+Reproduce (from the repository root):
 
 ```
 pip install -r requirements.txt
